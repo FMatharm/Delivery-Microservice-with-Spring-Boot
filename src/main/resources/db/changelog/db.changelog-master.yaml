@@ -1,0 +1,41 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: fmatharm
+      changes:
+        - insert:
+            tableName: INVENTORY
+            columns:
+              - column:
+                  name: PRODUCT_NAME
+                  value: XBOX One Controller
+              - column:
+                  name: PRODUCT_STOCK
+                  value: 20
+              - column:
+                  name: PRODUCT_PRICE
+                  value: 49.99
+        - insert:
+            tableName: INVENTORY
+            columns:
+              - column:
+                  name: PRODUCT_NAME
+                  value: Razer Seiren Microphone
+              - column:
+                  name: PRODUCT_STOCK
+                  value: 32
+              - column:
+                  name: PRODUCT_PRICE
+                  value: 60
+        - insert:
+            tableName: INVENTORY
+            columns:
+              - column:
+                  name: PRODUCT_NAME
+                  value: Razer Kraken Headphones
+              - column:
+                  name: PRODUCT_STOCK
+                  value: 16
+              - column:
+                  name: PRODUCT_PRICE
+                  value: 54.99
